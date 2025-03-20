@@ -48,6 +48,7 @@ d. MDVP:Fo(Hz) (Fundamental frequency)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Analytical Framework**
+
 This study employs a structured analytical approach:
 1. Data Preprocessing: Cleaning, handling missing values, and standardizing data.
 
