@@ -13,6 +13,10 @@ Sample of the dataset
 ![image](https://github.com/user-attachments/assets/73d589c2-69cf-4dd7-9f11-4b2cd7996cac)
 Status: 1 = Parkinson’s, 0 = Healthy
 
+Frequency of the Status
+![image](https://github.com/user-attachments/assets/14e3e5b3-b2d1-44fb-bd78-04631f9b8e55)
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Executive Driven Questions**
