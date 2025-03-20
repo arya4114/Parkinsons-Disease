@@ -7,6 +7,7 @@ This project analyzes a dataset related to Parkinson's disease, using Python and
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Representative Data**
+
 Sample of the dataset
 ![image](https://github.com/user-attachments/assets/edeeb674-bf2a-4323-808a-678c96975dcb)
 ![image](https://github.com/user-attachments/assets/73d589c2-69cf-4dd7-9f11-4b2cd7996cac)
@@ -15,27 +16,37 @@ Status: 1 = Parkinson’s, 0 = Healthy
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Executive Driven Questions**
+
 The analysis was guided by key business and research questions:
 1. What are the distinguishing vocal features of patients with Parkinson’s disease?
+   
 Patients with Parkinson’s disease tend to exhibit higher levels of jitter, shimmer, and lower Harmonic-to-Noise Ratio (HNR) compared to healthy individuals. These features indicate irregularities in voice frequency and amplitude, which are common symptoms of the disease.
 
+
 2. How do jitter and shimmer values correlate with the presence of Parkinson’s disease?
+   
 Higher jitter and shimmer values correlate strongly with Parkinson’s disease, as they measure frequency and amplitude instability in voice recordings. The correlation coefficients suggest a positive relationship between these features and disease presence.
 
+
 3. Can we develop an early detection mechanism using this dataset?
+   
 Yes, by leveraging machine learning models trained on these vocal biomarkers, we can develop a non-invasive early detection tool. The model achieved over 85% accuracy, indicating strong potential for clinical applications.
 
-4. What are the most significant predictors of Parkinson’s disease in this dataset?
+
+4 . What are the most significant predictors of Parkinson’s disease in this dataset?
+
 The most important predictors include:
-1. MDVP:Jitter(%) (Frequency variation in voice)
+a. MDVP:Jitter(%) (Frequency variation in voice)
 
-2. MDVP:Shimmer (Amplitude variation in voice)
+b. MDVP:Shimmer (Amplitude variation in voice)
 
-3. HNR (Harmonic-to-noise ratio, lower in Parkinson’s patients)
+c. HNR (Harmonic-to-noise ratio, lower in Parkinson’s patients)
 
-4. MDVP:Fo(Hz) (Fundamental frequency)
+d. MDVP:Fo(Hz) (Fundamental frequency)
+
 
 5. Are there any outliers or anomalies that could impact the analysis?
+   
 Yes, some extreme values in MDVP:Fhi(Hz) and MDVP:Flo(Hz) suggest potential anomalies. These were handled through outlier detection techniques such as IQR filtering and Z-score normalization.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
