@@ -19,23 +19,20 @@ Status: 1 = Parkinson’s, 0 = Healthy
 
 The analysis was guided by key business and research questions:
 1. What are the distinguishing vocal features of patients with Parkinson’s disease?
-   
-Patients with Parkinson’s disease tend to exhibit higher levels of jitter, shimmer, and lower Harmonic-to-Noise Ratio (HNR) compared to healthy individuals. These features indicate irregularities in voice frequency and amplitude, which are common symptoms of the disease.
+   Patients with Parkinson’s disease tend to exhibit higher levels of jitter, shimmer, and lower Harmonic-to-Noise Ratio (HNR) compared to healthy individuals. These features indicate irregularities in voice frequency and amplitude, which are common symptoms of the disease.
 
 
 2. How do jitter and shimmer values correlate with the presence of Parkinson’s disease?
-   
-Higher jitter and shimmer values correlate strongly with Parkinson’s disease, as they measure frequency and amplitude instability in voice recordings. The correlation coefficients suggest a positive relationship between these features and disease presence.
+   Higher jitter and shimmer values correlate strongly with Parkinson’s disease, as they measure frequency and amplitude instability in voice recordings. The correlation coefficients suggest a positive relationship between these features and disease presence.
 
 
 3. Can we develop an early detection mechanism using this dataset?
-   
-Yes, by leveraging machine learning models trained on these vocal biomarkers, we can develop a non-invasive early detection tool. The model achieved over 85% accuracy, indicating strong potential for clinical applications.
+   Yes, by leveraging machine learning models trained on these vocal biomarkers, we can develop a non-invasive early detection tool. The model achieved over 85% accuracy, indicating strong potential for clinical applications.
 
 
 4 . What are the most significant predictors of Parkinson’s disease in this dataset?
-
 The most important predictors include:
+
 a. MDVP:Jitter(%) (Frequency variation in voice)
 
 b. MDVP:Shimmer (Amplitude variation in voice)
@@ -46,8 +43,7 @@ d. MDVP:Fo(Hz) (Fundamental frequency)
 
 
 5. Are there any outliers or anomalies that could impact the analysis?
-   
-Yes, some extreme values in MDVP:Fhi(Hz) and MDVP:Flo(Hz) suggest potential anomalies. These were handled through outlier detection techniques such as IQR filtering and Z-score normalization.
+   Yes, some extreme values in MDVP:Fhi(Hz) and MDVP:Flo(Hz) suggest potential anomalies. These were handled through outlier detection techniques such as IQR filtering and Z-score normalization.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
